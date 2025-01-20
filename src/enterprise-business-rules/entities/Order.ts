@@ -1,6 +1,6 @@
 import { Owner } from './Owner';
 
-export interface Item {
+interface Item {
   name: string;
   price: string;
   owner: Owner;

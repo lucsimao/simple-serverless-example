@@ -1,4 +1,4 @@
-import { SNS } from 'aws-sdk';
+import { SNS } from '@aws-sdk/client-sns';
 
 import { SnsNotificationClient } from '../../adapters/notification/SnsNotificationClient';
 

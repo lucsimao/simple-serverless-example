@@ -1,7 +1,6 @@
 import { Validator } from './protocols/Validator';
 import { ValidatorField } from './protocols/ValidatorField';
 import { Required } from './Required';
-
 export class ValidationBuilder {
   private constructor(
     private readonly field: ValidatorField<unknown>,

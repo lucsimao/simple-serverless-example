@@ -1,8 +1,8 @@
-import { DynamoDB } from 'aws-sdk';
+import { DynamoDB } from '@aws-sdk/client-dynamodb';
 
 import { DynamoDatabaseClient } from '../../adapters/database/DynamoDatabaseClient';
 
-export interface DatabaseParams {
+interface DatabaseParams {
   tableName: string;
 }
 
